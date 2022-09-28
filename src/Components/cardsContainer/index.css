@@ -1,0 +1,149 @@
+img {
+  width: 100%;
+}
+
+.cards {
+  flex-grow: 1;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.cards__container {
+  padding-top: 61px;
+}
+
+.cards__heading {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 44px;
+
+  /* or 105% */
+
+  color: #424f5e;
+}
+
+.cards__subheading {
+  margin-top: 7px;
+  margin-bottom: 28px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+
+  /* identical to box height */
+
+  color: #424f5e;
+}
+
+.cards__title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+
+  /* identical to box height, or 100% */
+
+  color: #424f5e;
+}
+
+.cards__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 15px;
+  width: 100%;
+
+}
+
+.cards__item {
+  width: 100%;
+
+  background: #f9fafb;
+  border-radius: 25px;
+}
+
+.cards__title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #424f5e;
+  margin-bottom: 15px;
+}
+
+.cards__location {
+  margin-bottom: 12px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* identical to box height, or 111% */
+
+  color: #424f5e;
+  /* identical to box height, or 100% */
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: -4px;
+}
+
+.cards__description {
+  padding-left: 30px;
+  padding-top: 19px;
+  padding-bottom: 30px;
+}
+
+.cards__detailes {
+  margin-bottom: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* identical to box height, or 111% */
+
+  color: #424f5e;
+}
+
+.cards__pricing {
+  margin-bottom: 40px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+
+  /* identical to box height, or 100% */
+
+  color: #424f5e;
+}
+
+.cards__btn {
+  padding: 7px 40px 9px;
+
+  background-color: #3782da;
+  border-radius: 10px;
+
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* identical to box height, or 111% */
+  text-align: center;
+
+  color: #f9fafb;
+}

@@ -1,0 +1,162 @@
+.modal {
+  position: relative;
+  width: 526px;
+
+  background: #f9fafb;
+  box-shadow: -30px 30px 50px rgba(28, 28, 30, 0.1);
+  border-radius: 25px;
+  padding: 59px 61px 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__heading {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 100%;
+
+  /* identical to box height, or 34px */
+  text-align: center;
+
+  color: #424f5e;
+  margin-bottom: 17px;
+}
+
+.modal__label {
+  margin-bottom: 8px;
+}
+
+.modal__input {
+  width: 100%;
+  border: 1px solid #c1c1cb;
+  border-radius: 15px;
+  padding: 21px 30px 21px 20px;
+}
+
+::placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+
+  /* identical to box height, or 100% */
+
+  color: #9494a0;
+}
+
+.modal__btn {
+  padding: 21px 40px 20px;
+
+  background-color: #3782da;
+  border-radius: 10px;
+
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* identical to box height, or 111% */
+  text-align: center;
+
+  color: #f9fafb;
+}
+
+.modal-error {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+
+  /* identical to box height, or 16px */
+
+  color: #ff5139;
+  padding-bottom: 13px;
+}
+
+.modal__register {
+  margin-top: 27px;
+  margin-bottom: 49px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 20px;
+
+  /* identical to box height, or 100% */
+
+  color: #c1c1cb;
+}
+
+.modal__password {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 20px;
+
+  /* identical to box height, or 125% */
+  text-decoration-line: underline;
+
+  color: #c1c1cb;
+}
+
+.modal__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #ebebf0;
+  border-radius: 15px;
+  padding: 5px 6px;
+}
+
+.modal__checkbox-block {
+  display: flex;
+  margin-top: 117px;
+  margin-bottom: 36px;
+  position: relative;
+}
+
+.modal__input-checkbox {
+  height: 0;
+  width: 0;
+  margin-right: 29px;
+}
+
+.modal__input-checkbox-imitator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+
+  border-radius: 5px;
+  background-color: "#9494A0";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__label-checkbox {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-decoration-line: underline;
+  /* or 19px */
+
+  color: #424f5e;
+}
